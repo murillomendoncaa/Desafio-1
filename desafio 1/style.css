@@ -1,0 +1,65 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+.cabecalho {
+   display: flex; /* Separando logo dos links */
+   align-items: center; /* Centralizando os itens */
+   justify-content: space-between; /* Separação entre logo e link */
+   padding: 24px 20px; 
+}
+
+.cabecalho ul{
+    list-style: none;
+}
+
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+.capa img{
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+.direito {
+    text-align: center;
+}
